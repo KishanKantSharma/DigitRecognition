@@ -1,0 +1,1 @@
+from digitrecog import app

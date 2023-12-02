@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      .boxed{
+        background-color: #1F2833;
+        background-repeat: no-repeat;
+        height: 25%;
+        width: 120%;
+        position: fixed;
+        top: 0px;
+        font-size: 50px;
+        font-family:inherit;
+        color: #66FCF1;
+      }
+
+      .boxed2{
+        background-color: #1F2833;
+        position: fixed;
+        bottom: 0px;
+        height: 75%;
+        width: 120%;
+      }
+
+    </style>
+
+    <title>Handwritten Digit Recognition</title>
+  </head>
+  <body>
+    <div class="boxed">
+    <h1 style="position:fixed; left: 120px;">Handwritten Digit Recognition</h1>
+    </div>
+
+    <div class="boxed2">
+
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <input style="position:fixed; font-size:20px; left:600px; top:340px; height: 25px; color:white;" type="file" name="file">
+      <input style="position:fixed; font-size:25px; left:500px; top:430px; height: 40px; width: 30%;height: 7.5%;color:#1F2833;border-radius:20px;background-color:#66FCF1;" type="submit"  value="Predict Digit">
+    </form>
+    <p style="position: fixed;bottom: 0;left: 610px;font-size: 14px;color:white;">Created by Karan Malik,Copyright &copy; 2020 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Github: <a target="_blank" href="https://github.com/Karan-Malik">click here</a> </p>
+
+    </div>
+  </body>
+</html>
